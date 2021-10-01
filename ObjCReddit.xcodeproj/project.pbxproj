@@ -15,6 +15,7 @@
 		1F02C12427073EC400A01BB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F02C12327073EC400A01BB0 /* main.m */; };
 		1F02C12D27073FEA00A01BB0 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F02C12C27073FEA00A01BB0 /* Post.m */; };
 		1F02C1322707404E00A01BB0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F02C1312707404E00A01BB0 /* TableViewController.swift */; };
+		1F02C1352707455400A01BB0 /* PostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F02C1342707455400A01BB0 /* PostManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		1F02C12C27073FEA00A01BB0 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		1F02C12E2707401F00A01BB0 /* ObjCReddit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCReddit-Bridging-Header.h"; sourceTree = "<group>"; };
 		1F02C1312707404E00A01BB0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1F02C1332707455400A01BB0 /* PostManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostManager.h; sourceTree = "<group>"; };
+		1F02C1342707455400A01BB0 /* PostManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 				1F02C1312707404E00A01BB0 /* TableViewController.swift */,
 				1F02C12B27073FEA00A01BB0 /* Post.h */,
 				1F02C12C27073FEA00A01BB0 /* Post.m */,
+				1F02C1332707455400A01BB0 /* PostManager.h */,
+				1F02C1342707455400A01BB0 /* PostManager.m */,
 			);
 			path = ObjCReddit;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 				1F02C11627073EC300A01BB0 /* SceneDelegate.m in Sources */,
 				1F02C1322707404E00A01BB0 /* TableViewController.swift in Sources */,
 				1F02C12D27073FEA00A01BB0 /* Post.m in Sources */,
+				1F02C1352707455400A01BB0 /* PostManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

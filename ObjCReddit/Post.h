@@ -18,7 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype) initWithTitle:(NSString *)title
                        upvotes:(NSInteger)upvotes
-                      comments:(NSInteger)comments;
+                      comments:(NSInteger)comments
+                      subreddit:(NSString *)subreddit;
 
 @end
 
